@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <label for="book-name"> Book Name : </label>
+    <input type="text" id="bookname" name="bookname">
+    <br>
+    <label for="author"> Author : </label>
+    <input type="text" id="author" name="author">
+    <br>
+    <label for="pages"> Pages : </label>
+    <input type="number" id="pages" name="pages">
+    <br>
+    <label for="cars">Choose a car:</label>
+    <select name="isRead" id="is-Read">
+        <option value="true">I am still reading</option>
+        <option value="false">Already read</option>
+    </select>
+    <button id="add-book">Add</button>
+
+    <ul id="book-array"></ul>
+</body>
+
+</html>
